@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="projektsoa-ejb:ejb">
+    <output-path>$PROJECT_DIR$/projektsoa-ejb/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>projektsoa-ejb</module>
+        <packaging>ejb</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="projektsoa-ejb.jar">
+      <element id="artifact" artifact-name="projektsoa-ejb:ejb exploded" />
+    </root>
+  </artifact>
+</component>

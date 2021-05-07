@@ -1,0 +1,5 @@
+# Project exclude paths
+/projektsoa-ear/target/
+/projektsoa-soap-api/target/
+/projektsoa-soap-connector/target/
+/projektsoa-web/target/

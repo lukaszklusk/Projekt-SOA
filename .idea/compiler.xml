@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="projektsoa-soap-connector" />
+        <module name="projektsoa-soap-api" />
+        <module name="projektsoa-web" />
+        <module name="projektsoa-ear" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="projektsoa" target="1.7" />
+      <module name="projektsoa-ear" target="1.7" />
+      <module name="projektsoa-soap-api" target="8" />
+      <module name="projektsoa-soap-connector" target="1.7" />
+      <module name="projektsoa-web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="projektsoa-soap-connector" options="" />
+    </option>
+  </component>
+</project>

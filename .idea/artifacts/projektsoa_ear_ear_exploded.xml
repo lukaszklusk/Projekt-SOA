@@ -1,0 +1,58 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="projektsoa-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/projektsoa-ear/target/projektsoa-ear</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>projektsoa-ear</module>
+        <packaging>ear</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="projektsoa-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/projektsoa-ear/target/projektsoa-ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/projektsoa-ear/src/main/application" />
+      <element id="archive" name="projektsoa-web.war">
+        <element id="artifact" artifact-name="projektsoa-web:war exploded" />
+      </element>
+      <element id="archive" name="projektsoa-soap-api.jar">
+        <element id="artifact" artifact-name="projektsoa-soap-api:ejb exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar" output-file-name="javaee-api.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/com/sun/mail/javax.mail/1.5.1/javax.mail-1.5.1.jar" output-file-name="javax.mail.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/activation/activation/1.1.1/activation-1.1.1.jar" output-file-name="activation.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar" output-file-name="jsr250-api.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/org/jboss/ws/jbossws-api/1.1.2.Final/jbossws-api-1.1.2.Final.jar" output-file-name="jbossws-api.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/com/sun/xml/messaging/saaj/saaj-impl/1.4.0/saaj-impl-1.4.0.jar" output-file-name="saaj-impl.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/xml/soap/javax.xml.soap-api/1.4.0/javax.xml.soap-api-1.4.0.jar" output-file-name="javax.xml.soap-api.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/org/jvnet/mimepull/mimepull/1.9.7/mimepull-1.9.7.jar" output-file-name="mimepull.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/org/jvnet/staxex/stax-ex/1.7.8/stax-ex-1.7.8.jar" output-file-name="stax-ex.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar" output-file-name="stax-api.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/com/sun/xml/ws/jaxws-rt/2.3.3/jaxws-rt-2.3.3.jar" output-file-name="jaxws-rt.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/com/sun/xml/ws/policy/2.7.10/policy-2.7.10.jar" output-file-name="policy.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar" output-file-name="jaxb-impl.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/org/glassfish/ha/ha-api/3.1.12/ha-api-3.1.12.jar" output-file-name="ha-api.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/org/glassfish/external/management-api/3.2.2/management-api-3.2.2.jar" output-file-name="management-api.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/org/glassfish/gmbal/gmbal/4.0.1/gmbal-4.0.1.jar" output-file-name="gmbal.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/org/glassfish/pfl/pfl-tf/4.1.0/pfl-tf-4.1.0.jar" output-file-name="pfl-tf.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/org/glassfish/pfl/pfl-basic/4.1.0/pfl-basic-4.1.0.jar" output-file-name="pfl-basic.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/com/sun/xml/stream/buffer/streambuffer/1.5.9/streambuffer-1.5.9.jar" output-file-name="streambuffer.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/com/sun/xml/fastinfoset/FastInfoset/1.2.18/FastInfoset-1.2.18.jar" output-file-name="FastInfoset.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar" output-file-name="jakarta.activation.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/com/fasterxml/woodstox/woodstox-core/5.1.0/woodstox-core-5.1.0.jar" output-file-name="woodstox-core.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/org/codehaus/woodstox/stax2-api/4.1/stax2-api-4.1.jar" output-file-name="stax2-api.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/jakarta/xml/ws/jakarta.xml.ws-api/2.3.3/jakarta.xml.ws-api-2.3.3.jar" output-file-name="jakarta.xml.ws-api.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar" output-file-name="jakarta.xml.bind-api.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/jakarta/xml/soap/jakarta.xml.soap-api/1.4.2/jakarta.xml.soap-api-1.4.2.jar" output-file-name="jakarta.xml.soap-api.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/jakarta/jws/jakarta.jws-api/2.1.0/jakarta.jws-api-2.1.0.jar" output-file-name="jakarta.jws-api.jar" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar" output-file-name="jakarta.annotation-api.jar" />
+      </element>
+      <element id="archive" name="projektsoa-soap-connector.jar">
+        <element id="artifact" artifact-name="projektsoa-soap-connector:ejb exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>
